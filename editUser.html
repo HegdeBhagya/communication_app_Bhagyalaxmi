@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit User Information - Communications Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+      <div class="content">
+        <h2>Edit User Information</h2>
+        <div class="form">
+          <label for="fullName">Full Name:</label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Anne Hunter"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="anne.hunter@mail.com"
+          />
+          <div class="modal-footer">
+            <button class="save-user-button" onclick="saveUser()">Save</button>
+            <button
+              class="cancel-user-button"
+              onclick="window.location.href='userList.html'"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Communications Application - Group Chat</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+      <div class="content">
+        <h2>Group Chat</h2>
+        <div class="chat-box">
+          <div id="chatMessages"></div>
+          <div class="chat-user-name" id="chat-user-name"></div>
+          <div class="chat-input">
+            <input
+              type="text"
+              id="messageInput"
+              placeholder="Type your message"
+              class="chat-input-field"
+            />
+            <button class="send-button" id="sendMessageButton">Send</button>
+            <button class="refresh-button" id="refreshChatButton">
+              Refresh
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
