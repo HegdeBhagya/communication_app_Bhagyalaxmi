@@ -1,4 +1,4 @@
-The communication application javascript project codes.The demo on this project done on 03/10/2024.
+GROUP B:                                                                                                                                                                                                           The communication application javascript project codes.The demo on this project done on 03/10/2024.
 
 Features:                                                                                                                                                                                                             
 Group Chat: Communicate in real-time with multiple users.                                                                                                                                                             
