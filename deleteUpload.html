@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete Upload - Communications Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"></div>
+      <div class="content">
+        <h3>Confirm File Deletion</h3>
+        <div class="form">
+          <p>Are you sure you want to delete the following file?</p>
+          <p><strong>Label:</strong> <span id="deleteLabel"></span></p>
+          <p><strong>File Name:</strong> <span id="deleteFileName"></span></p>
+          <div class="modal-footer">
+            <button class="confirm-delete-button" onclick="confirmDelete()">OK</button>
+            <button class="cancel-delete-button" onclick="window.location.href='documentList.html'">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
